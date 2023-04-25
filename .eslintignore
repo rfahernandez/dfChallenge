@@ -1,0 +1,4 @@
+.eslintrc.js
+*.config.js
+__mocks__/*
+coverage/*
