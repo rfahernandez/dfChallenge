@@ -10,31 +10,29 @@ export const Fonts = createFonts({
   h1: {
     fontFamily: 'Avenir-Black',
     fontSize: verticalScale(32),
-    lineHeight: verticalScale(43),
   },
   h2: {
     fontFamily: 'Avenir-Black',
     fontSize: verticalScale(24),
-    lineHeight: verticalScale(24),
   },
   h3: {
     fontFamily: 'Avenir-Black',
     fontSize: verticalScale(20),
-    lineHeight: verticalScale(27.32),
   },
   h4: {
     fontFamily: 'Avenir-Roman',
     fontSize: verticalScale(16),
-    lineHeight: verticalScale(21.86),
+  },
+  h4Bold: {
+    fontFamily: 'Avenir-Black',
+    fontSize: verticalScale(16),
   },
   h5: {
     fontFamily: 'Avenir-Black',
     fontSize: verticalScale(14),
-    lineHeight: verticalScale(19.12),
   },
   paragraph: {
     fontFamily: 'Avenir-Black',
     fontSize: verticalScale(12),
-    lineHeight: verticalScale(16.39),
   },
 });

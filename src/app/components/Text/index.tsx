@@ -9,7 +9,7 @@ interface Props extends TextProps {
 
 export const Text: React.FC<Props> = ({ style, color = 'black', children, ...props }) => {
   return (
-    <RNText style={[style, { color: Colors[color] }]} {...props}>
+    <RNText allowFontScaling={false} style={[style, { color: Colors[color] }]} {...props}>
       {children}
     </RNText>
   );

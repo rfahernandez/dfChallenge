@@ -5,6 +5,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Text } from '@/app/components';
 import { Colors } from '@/constants/colors';
 import { useProducts } from '@/hooks/useProducts';
+import { verticalScale } from '@/utils/scale';
 
 import { ActivityFilters } from './components/Filters';
 import { MemoHeader as ActivityHeader } from './components/Header';
@@ -35,7 +36,7 @@ export const Activity = () => {
 
   return (
     <SafeAreaView style={styles.safeArea}>
-      <View style={[styles.content, { marginTop: 60 - top }]}>
+      <View style={[styles.content, { marginTop: verticalScale(60 - top) }]}>
         <ActivityHeader />
         <ActivityPoints points={points} />
         <Products products={filteredProducts} />

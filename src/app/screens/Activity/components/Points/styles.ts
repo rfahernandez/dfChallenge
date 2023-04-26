@@ -10,8 +10,7 @@ export const styles = StyleSheet.create({
     marginVertical: verticalScale(20),
   },
   month: {
-    ...Fonts.h4,
-    fontFamily: 'Avenir-Black',
+    ...Fonts.h4Bold,
     marginBottom: verticalScale(7),
   },
   points: {

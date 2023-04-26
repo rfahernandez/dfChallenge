@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 import { Colors } from '@/constants/colors';
+import { scale } from '@/utils/scale';
 
 export const styles = StyleSheet.create({
   safeArea: {
@@ -9,8 +10,7 @@ export const styles = StyleSheet.create({
   },
   content: {
     backgroundColor: Colors.alabaster,
-    marginHorizontal: 20,
-    marginBottom: 40,
+    marginHorizontal: scale(20),
   },
   fallbackContainer: {
     flex: 1,

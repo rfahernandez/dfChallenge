@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, TouchableOpacity, View } from 'react-native';
 
-import { Text } from '@/app/components';
+import { LoadingImage, Text } from '@/app/components';
 import { Product } from '@/interfaces/products';
 import { getFormattedDate } from '@/utils/date';
 
@@ -21,7 +21,7 @@ export const ProductItem: React.FC<Props> = ({ product, onPress }) => {
 
   return (
     <TouchableOpacity onPress={handlePress} style={styles.container}>
-      <Image source={{ uri: product.image }} style={styles.asset} />
+      <LoadingImage source={{ uri: product.image }} style={styles.asset} />
       <View style={styles.infoContainer}>
         <Text style={styles.name}>{product.product}</Text>
         <Text style={styles.date}>{getFormattedDate(product.createdAt)}</Text>
