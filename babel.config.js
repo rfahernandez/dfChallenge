@@ -9,7 +9,11 @@ module.exports = {
           '@/constants': ['./src/constants'],
           '@/screens': ['./src/app/screens'],
           '@/app': ['./src/app'],
-          '@/navigation': ['./src/app/navigation']
+          '@/navigation': ['./src/app/navigation'],
+          '@/hooks': ['./src/hooks'],
+          '@/utils': ['./src/utils'],
+          '@/components': ['./src/components'],
+          '@/interfaces': ['./src/interfaces'],
         }
       }
     ],

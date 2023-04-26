@@ -11,6 +11,14 @@
       "@/app": ["./src/app"],
       "@/navigation/*": ["./src/app/navigation/*"],
       "@/navigation": ["./src/app/navigation"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/hooks": ["./src/hooks"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/utils": ["./src/utils"],
+      "@/components/*": ["./src/components/*"],
+      "@/components": ["./src/components"],
+      "@/interfaces/*": ["./src/interfaces/*"],
+      "@/interfaces": ["./src/interfaces"],
     },
   }
 }

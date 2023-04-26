@@ -1,18 +1,20 @@
 import { StyleSheet } from 'react-native';
 
-export default StyleSheet.create({
-  container: {
-    backgroundColor: 'white',
+import { Colors } from '@/constants/colors';
+
+export const styles = StyleSheet.create({
+  safeArea: {
     flex: 1,
-    alignItems: 'center',
-  },
-  header: {
-    height: 100,
-    backgroundColor: 'red',
-    width: '100%',
+    backgroundColor: Colors.alabaster,
   },
   content: {
+    backgroundColor: Colors.alabaster,
+    marginHorizontal: 20,
+    marginBottom: 40,
+  },
+  fallbackContainer: {
     flex: 1,
     justifyContent: 'center',
+    alignItems: 'center',
   },
 });
