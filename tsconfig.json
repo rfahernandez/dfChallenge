@@ -19,6 +19,8 @@
       "@/components": ["./src/components"],
       "@/interfaces/*": ["./src/interfaces/*"],
       "@/interfaces": ["./src/interfaces"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/assets": ["./src/assets"],
     },
   }
 }

@@ -9,7 +9,7 @@ export const useProducts = () => {
     fetch('https://6222994f666291106a29f999.mockapi.io/api/v1/products')
       .then((response) => response.json())
       .then((json) => {
-        setProducts(json.slice(0, 10));
+        setProducts(json.slice(0, 5));
         setIsLoading(false);
       })
       .catch((error) => {

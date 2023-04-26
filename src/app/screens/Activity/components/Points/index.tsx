@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Card, Text } from '@/app/components';
+import { formatPoints } from '@/utils/currency';
 
 import { styles } from './styles';
 
@@ -20,7 +21,7 @@ export const ActivityPoints: React.FC<Props> = ({ points }) => {
             Diciembre
           </Text>
           <Text style={styles.points} color="white">
-            {points} pts
+            {formatPoints(points)} pts
           </Text>
         </>
       </Card>
