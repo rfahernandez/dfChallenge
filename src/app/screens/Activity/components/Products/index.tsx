@@ -1,6 +1,6 @@
 import { NavigationProp, useNavigation } from '@react-navigation/native';
 import React, { useCallback } from 'react';
-import { FlatList, View } from 'react-native';
+import { FlatList } from 'react-native';
 
 import { Text } from '@/app/components';
 import { Routes } from '@/constants/routes';
@@ -34,11 +34,11 @@ export const Products: React.FC<Props> = ({ products }) => {
   );
 
   return (
-    <View style={styles.container}>
+    <>
       <Text style={styles.header} color="dustyGray">
         TUS MOVIMIENTOS
       </Text>
-      <FlatList data={products} renderItem={renderItem} style={styles.list} />
-    </View>
+      <FlatList bounces={false} scrollEnabled={false} data={products} renderItem={renderItem} style={styles.list} />
+    </>
   );
 };

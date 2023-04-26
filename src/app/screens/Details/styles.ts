@@ -43,6 +43,7 @@ export default StyleSheet.create({
   },
   points: {
     ...Fonts.h2,
+    marginTop: verticalScale(13),
     marginBottom: verticalScale(47),
   },
 });

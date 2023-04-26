@@ -5,7 +5,6 @@ import { Fonts } from '@/constants/fonts';
 import { scale, verticalScale } from '@/utils/scale';
 
 export const styles = StyleSheet.create({
-  container: {},
   header: {
     ...Fonts.h5,
     marginVertical: verticalScale(20),
