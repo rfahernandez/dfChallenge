@@ -28,3 +28,9 @@ After setting up the environment run the following commands:
 - Run `yarn test` to run all tests.
 - Run `yarn lint` to check the lint.
 - Run `yarn lint:fix` to fix all the lint issues.
+
+## Gifs
+
+#### iPhone 14 Pro
+
+![](https://github.com/rfahernandez/dfChallenge/blob/main/gifs/iPhone_14_Pro-1.gif)
