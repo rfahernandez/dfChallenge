@@ -5,7 +5,7 @@ import { styles } from './styles';
 
 export const Button: React.FC<TouchableOpacityProps> = ({ onPress, children, style }) => {
   return (
-    <TouchableOpacity style={[styles.container, style]} onPress={onPress}>
+    <TouchableOpacity testID="button" style={[styles.container, style]} onPress={onPress}>
       {children}
     </TouchableOpacity>
   );

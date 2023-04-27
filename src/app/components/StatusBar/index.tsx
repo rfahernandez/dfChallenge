@@ -11,7 +11,7 @@ interface Props extends StatusBarProps {
 
 export const CustomStatusBar: React.FC<Props> = ({ backgroundColor, ...props }) => {
   return (
-    <View style={[styles.statusBar, { backgroundColor: Colors[backgroundColor] }]}>
+    <View testID="custom-status-bar" style={[styles.statusBar, { backgroundColor: Colors[backgroundColor] }]}>
       <SafeAreaView>
         <StatusBar translucent backgroundColor={backgroundColor} {...props} />
       </SafeAreaView>

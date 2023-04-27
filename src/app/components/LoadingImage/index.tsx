@@ -17,8 +17,8 @@ export const LoadingImage: React.FC<Props> = ({ source, style }) => {
 
   return (
     <View style={style}>
-      {isLoading && <ActivityIndicator style={styles.loader} />}
-      <Image source={source} style={style} onLoadEnd={handleImageLoad} />
+      {isLoading && <ActivityIndicator testID="loader" style={styles.loader} />}
+      <Image testID="image" source={source} style={style} onLoadEnd={handleImageLoad} />
     </View>
   );
 };
