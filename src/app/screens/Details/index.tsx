@@ -4,6 +4,7 @@ import { SafeAreaView, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { Button, Card, LoadingImage, StatusBar, Text } from '@/components';
+import { Colors } from '@/constants/colors';
 import { Routes } from '@/constants/routes';
 import { TNavigation } from '@/interfaces/navigation';
 import { getFormattedDate } from '@/utils/date';
@@ -24,7 +25,7 @@ export const Details: React.FC<TNavigation<Routes.Details>> = ({ route }) => {
 
   return (
     <>
-      <StatusBar backgroundColor="periwinkle" />
+      <StatusBar backgroundColor={Colors.periwinkle} />
       <SafeAreaView style={styles.container}>
         <View style={[styles.header, { height: verticalScale(150 - top) }]}>
           <Text style={styles.productName}>{product.product}</Text>
