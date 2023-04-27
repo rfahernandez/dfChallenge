@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
   content: {
     backgroundColor: Colors.alabaster,
     marginHorizontal: scale(20),
+    justifyContent: 'space-between',
   },
   fallbackContainer: {
     flex: 1,

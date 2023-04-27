@@ -30,19 +30,21 @@ export const Details: React.FC<TNavigation<Routes.Details>> = ({ route }) => {
           <Text style={styles.productName}>{product.product}</Text>
         </View>
         <View style={styles.content}>
-          <Card style={styles.card}>
-            <LoadingImage source={{ uri: product.image }} style={styles.asset} />
-          </Card>
-          <Text style={styles.description} color="dustyGray">
-            Detalle del producto:
-          </Text>
-          <Text style={styles.date}>{`${product.is_redemption ? 'Canjeado' : 'Comprado'} el ${getFormattedDate(
-            product.createdAt
-          )}`}</Text>
-          <Text style={styles.description} color="dustyGray">
-            {`Con esta compra ${product.is_redemption ? 'canjeaste' : 'acumulaste'}:`}
-          </Text>
-          <Text style={styles.points}>{`${product.points} puntos`}</Text>
+          <View>
+            <Card style={styles.card}>
+              <LoadingImage source={{ uri: product.image }} style={styles.asset} />
+            </Card>
+            <Text style={styles.description} color="dustyGray">
+              Detalle del producto:
+            </Text>
+            <Text style={styles.date}>{`${product.is_redemption ? 'Canjeado' : 'Comprado'} el ${getFormattedDate(
+              product.createdAt
+            )}`}</Text>
+            <Text style={styles.description} color="dustyGray">
+              {`Con esta compra ${product.is_redemption ? 'canjeaste' : 'acumulaste'}:`}
+            </Text>
+            <Text style={styles.points}>{`${product.points} puntos`}</Text>
+          </View>
           <Button onPress={handleAcceptPress}>
             <Text style={styles.accept} color="white">
               Aceptar

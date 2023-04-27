@@ -20,6 +20,8 @@ export default StyleSheet.create({
     flex: 1,
     backgroundColor: Colors.alabaster,
     paddingHorizontal: scale(20),
+    justifyContent: 'space-between',
+    paddingBottom: verticalScale(40),
   },
   card: {
     borderRadius: 10,
