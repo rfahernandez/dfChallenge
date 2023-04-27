@@ -2,7 +2,7 @@ import { NavigationProp, useNavigation } from '@react-navigation/native';
 import React, { useCallback } from 'react';
 import { FlatList } from 'react-native';
 
-import { Text } from '@/app/components';
+import { Text } from '@/components';
 import { Routes } from '@/constants/routes';
 import { StackParamList } from '@/interfaces/navigation';
 import { Product } from '@/interfaces/products';

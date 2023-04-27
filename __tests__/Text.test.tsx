@@ -1,9 +1,8 @@
 import { render } from '@testing-library/react-native';
 import React from 'react';
 
+import { Text } from '@/components';
 import { Colors } from '@/constants/colors';
-
-import { Text } from './';
 
 describe('Text Component', () => {
   it('renders correctly with default color', () => {

@@ -3,7 +3,7 @@ import React, { useCallback } from 'react';
 import { SafeAreaView, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { Button, Card, LoadingImage, StatusBar, Text } from '@/app/components';
+import { Button, Card, LoadingImage, StatusBar, Text } from '@/components';
 import { Routes } from '@/constants/routes';
 import { TNavigation } from '@/interfaces/navigation';
 import { getFormattedDate } from '@/utils/date';

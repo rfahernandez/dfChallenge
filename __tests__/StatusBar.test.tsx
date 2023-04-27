@@ -2,7 +2,7 @@ import { render } from '@testing-library/react-native';
 import React from 'react';
 import { StatusBar } from 'react-native';
 
-import { CustomStatusBar } from './';
+import { StatusBar as CustomStatusBar } from '@/components';
 
 describe('CustomStatusBar', () => {
   it('renders correctly', () => {

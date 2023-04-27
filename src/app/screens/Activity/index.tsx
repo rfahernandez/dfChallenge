@@ -2,7 +2,7 @@ import React from 'react';
 import { ActivityIndicator, SafeAreaView, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { Text } from '@/app/components';
+import { Text } from '@/components';
 import { Colors } from '@/constants/colors';
 import { useProducts } from '@/hooks/useProducts';
 import { verticalScale } from '@/utils/scale';

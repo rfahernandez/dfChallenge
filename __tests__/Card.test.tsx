@@ -2,7 +2,7 @@ import { render } from '@testing-library/react-native';
 import React from 'react';
 import { View } from 'react-native';
 
-import { Card } from './';
+import { Card } from '@/components';
 
 describe('Card Component', () => {
   it('renders correctly', () => {

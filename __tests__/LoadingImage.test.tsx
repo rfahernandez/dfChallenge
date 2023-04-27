@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react-native';
 import React from 'react';
 
-import { LoadingImage } from './';
+import { LoadingImage } from '@/components';
 
 describe('LoadingImage Component', () => {
   it('renders correctly with loading state', () => {

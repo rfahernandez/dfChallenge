@@ -1,10 +1,8 @@
 import { fireEvent, render } from '@testing-library/react-native';
 import React from 'react';
 
+import { Button, Text } from '@/components';
 import { verticalScale } from '@/utils/scale';
-
-import { Text } from '../Text';
-import { Button } from './';
 
 describe('Button component', () => {
   it('should render children prop', () => {

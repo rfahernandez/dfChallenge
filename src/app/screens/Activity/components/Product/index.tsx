@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, TouchableOpacity, View } from 'react-native';
 
-import { LoadingImage, Text } from '@/app/components';
+import { LoadingImage, Text } from '@/components';
 import { Product } from '@/interfaces/products';
 import { getFormattedDate } from '@/utils/date';
 
