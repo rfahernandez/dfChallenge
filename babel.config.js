@@ -12,7 +12,7 @@ module.exports = {
           '@/navigation': ['./src/app/navigation'],
           '@/hooks': ['./src/hooks'],
           '@/utils': ['./src/utils'],
-          '@/components': ['./src/components'],
+          '@/components': ['./src/app/components'],
           '@/interfaces': ['./src/interfaces'],
           '@/assets': ['./src/assets'],
         }

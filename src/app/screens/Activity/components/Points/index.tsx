@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, Text } from '@/app/components';
+import { Card, Text } from '@/components';
 import { formatPoints } from '@/utils/currency';
 
 import { styles } from './styles';

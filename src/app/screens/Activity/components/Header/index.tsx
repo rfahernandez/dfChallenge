@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 
-import { Text } from '@/app/components';
+import { Text } from '@/components';
 
 import { styles } from './styles';
 

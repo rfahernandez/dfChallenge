@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction, useCallback } from 'react';
 import { View } from 'react-native';
 
-import { Button, Text } from '@/app/components';
+import { Button, Text } from '@/components';
 import { Filters } from '@/interfaces/products';
 import { Haptic } from '@/utils/haptic';
 
