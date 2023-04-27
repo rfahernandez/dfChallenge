@@ -34,3 +34,19 @@ After setting up the environment run the following commands:
 #### iPhone 14 Pro
 
 ![](https://github.com/rfahernandez/dfChallenge/blob/main/gifs/iPhone_14_Pro-1.gif)
+
+![](https://github.com/rfahernandez/dfChallenge/blob/main/gifs/iPhone_14_Pro-2.gif)
+
+#### iPhone 8
+
+![](https://github.com/rfahernandez/dfChallenge/blob/main/gifs/iPhone_8-1.gif)
+
+![](https://github.com/rfahernandez/dfChallenge/blob/main/gifs/iPhone_8-2.gif)
+
+#### Pixel 6
+
+![](https://github.com/rfahernandez/dfChallenge/blob/main/gifs/Pixel_6-1.gif)
+
+![](https://github.com/rfahernandez/dfChallenge/blob/main/gifs/Pixel_6-2.gif)
+
+![](https://github.com/rfahernandez/dfChallenge/blob/main/gifs/Pixel_6-3.gif)
